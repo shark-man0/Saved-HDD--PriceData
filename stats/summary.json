@@ -1,12 +1,28 @@
 {
-  "schema_version": 1,
-  "budget_jpy": 40000,
+  "schema_version": 2,
+  "budgets_jpy": [
+    20000,
+    30000,
+    40000
+  ],
   "updated_at": null,
   "run_count": 0,
   "all_time_best": {
-    "overall": null,
-    "internal": null,
-    "external": null
+    "20000": {
+      "overall": null,
+      "internal": null,
+      "external": null
+    },
+    "30000": {
+      "overall": null,
+      "internal": null,
+      "external": null
+    },
+    "40000": {
+      "overall": null,
+      "internal": null,
+      "external": null
+    }
   },
   "history": [],
   "record_events": []
