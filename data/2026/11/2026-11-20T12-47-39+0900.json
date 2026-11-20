@@ -1,0 +1,1062 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-11-20T12-47-39+0900",
+  "observed_at": "2026-11-20T12:47:39+09:00",
+  "market_results": [
+    {
+      "market": "楽天市場",
+      "status": "partial",
+      "queries": [
+        "site:search.rakuten.co.jp HDD 内蔵 4TB 6TB 20000円 以下 送料無料",
+        "楽天 新品 内蔵 HDD 2TB 4TB 東芝 Seagate 19800 送料無料 2026",
+        "楽天 HDD 内蔵 3TB 2TB 20000 新品 11月20日",
+        "楽天 WD30EZAZ 19800 アーキサイト 11月20日",
+        "楽天 Western Digital 3TB 17980 港未来 新品 バルク",
+        "site:search.rakuten.co.jp 外付け HDD 4TB 6TB 20000円 以下 送料無料",
+        "楽天 外付け HDD 2TB 4TB 20000円 送料無料 バッファロー 11月 2026",
+        "楽天 Novaflux 2TB 13777 11/20 外付け",
+        "楽天 外付け HDD 3TB 2万円以下 11月20日",
+        "楽天 HDD 内蔵 4TB 6TB 30000円 ST4000DM004 DT02ABA400",
+        "楽天 ST4000DM004 24980 最短当日発送",
+        "楽天 外付け HDD 4TB 6TB 30000円 HD-EDS4U3-BE Novaflux",
+        "楽天 外付け 4TB 30000 HDD 11/20 送料無料",
+        "ELD-HTV040UBK 楽天 検索一覧",
+        "楽天 内蔵 HDD 8TB 10TB 12TB 40000円 ST8000DM004",
+        "楽天 ST8000DM004 ドスパラ 39680 発送 11月20",
+        "楽天 外付け HDD 8TB 6TB 40000円 送料無料 11月20日"
+      ],
+      "notes": "予算ごとのキーワード探索。2万円の価格上限付きURLは取得不可。全枠で検索一覧と選択個別ページを照合。配送先別注文画面未確認。候補数は実際に記録した候補の数であり検索エンジン全件数ではない。",
+      "search_by_budget": [
+        {
+          "budget_jpy": 20000,
+          "type": "internal",
+          "queries": [
+            "site:search.rakuten.co.jp HDD 内蔵 4TB 6TB 20000円 以下 送料無料",
+            "楽天 新品 内蔵 HDD 2TB 4TB 東芝 Seagate 19800 送料無料 2026",
+            "楽天 HDD 内蔵 3TB 2TB 20000 新品 11月20日",
+            "楽天 WD30EZAZ 19800 アーキサイト 11月20日",
+            "楽天 Western Digital 3TB 17980 港未来 新品 バルク"
+          ],
+          "status": "partial",
+          "candidate_count": 7,
+          "confirmed_count": 1,
+          "notes": "キーワード探索、候補数は保存件数、注文画面未確認。"
+        },
+        {
+          "budget_jpy": 20000,
+          "type": "external",
+          "queries": [
+            "site:search.rakuten.co.jp 外付け HDD 4TB 6TB 20000円 以下 送料無料",
+            "楽天 外付け HDD 2TB 4TB 20000円 送料無料 バッファロー 11月 2026",
+            "楽天 Novaflux 2TB 13777 11/20 外付け",
+            "楽天 外付け HDD 3TB 2万円以下 11月20日"
+          ],
+          "status": "partial",
+          "candidate_count": 5,
+          "confirmed_count": 1,
+          "notes": "キーワード探索、候補数は保存件数、注文画面未確認。"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "internal",
+          "queries": [
+            "楽天 HDD 内蔵 4TB 6TB 30000円 ST4000DM004 DT02ABA400",
+            "楽天 ST4000DM004 24980 最短当日発送"
+          ],
+          "status": "partial",
+          "candidate_count": 6,
+          "confirmed_count": 1,
+          "notes": "キーワード探索、候補数は保存件数、注文画面未確認。"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "external",
+          "queries": [
+            "楽天 外付け HDD 4TB 6TB 30000円 HD-EDS4U3-BE Novaflux",
+            "楽天 外付け 4TB 30000 HDD 11/20 送料無料",
+            "ELD-HTV040UBK 楽天 検索一覧"
+          ],
+          "status": "partial",
+          "candidate_count": 5,
+          "confirmed_count": 2,
+          "notes": "キーワード探索、候補数は保存件数、注文画面未確認。"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "internal",
+          "queries": [
+            "楽天 内蔵 HDD 8TB 10TB 12TB 40000円 ST8000DM004",
+            "楽天 ST8000DM004 ドスパラ 39680 発送 11月20"
+          ],
+          "status": "partial",
+          "candidate_count": 4,
+          "confirmed_count": 1,
+          "notes": "キーワード探索、候補数は保存件数、注文画面未確認。"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "external",
+          "queries": [
+            "楽天 外付け HDD 8TB 6TB 40000円 送料無料 11月20日"
+          ],
+          "status": "partial",
+          "candidate_count": 4,
+          "confirmed_count": 2,
+          "notes": "キーワード探索、候補数は保存件数、注文画面未確認。"
+        }
+      ]
+    },
+    {
+      "market": "Amazon.co.jp",
+      "status": "partial",
+      "queries": [
+        "site:amazon.co.jp 内蔵 HDD 4TB 6TB 20000円 以下",
+        "Amazon.co.jp ST2000DM005 WD20EARZ 16999 HDD",
+        "site:amazon.co.jp 外付け HDD 4TB 6TB 20000円 以下",
+        "Amazon.co.jp 外付け HDD 2TB 18000 バッファロー 東芝",
+        "Amazon.co.jp HDD 内蔵 4TB 6TB 30000円 ST4000DM004",
+        "Amazon.co.jp 外付け HDD 4TB 6TB 30000円",
+        "Amazon.co.jp 内蔵 HDD 8TB 12TB 40000円",
+        "Amazon.co.jp 外付け HDD 8TB 6TB 40000円"
+      ],
+      "notes": "予算別検索は実施したが、Amazon直接販売ページを取得できず。2万円用の横断商品検索カードと3万円用検索の旧比較情報のみ参考保存。3万円外付け・4万円両種は有効な候補を取得できなかった。",
+      "search_by_budget": [
+        {
+          "budget_jpy": 20000,
+          "type": "internal",
+          "queries": [
+            "site:amazon.co.jp 内蔵 HDD 4TB 6TB 20000円 以下",
+            "Amazon.co.jp ST2000DM005 WD20EARZ 16999 HDD"
+          ],
+          "status": "partial",
+          "candidate_count": 4,
+          "confirmed_count": 0,
+          "notes": "直接商品ページ、送料、在庫の確認不足。"
+        },
+        {
+          "budget_jpy": 20000,
+          "type": "external",
+          "queries": [
+            "site:amazon.co.jp 外付け HDD 4TB 6TB 20000円 以下",
+            "Amazon.co.jp 外付け HDD 2TB 18000 バッファロー 東芝"
+          ],
+          "status": "partial",
+          "candidate_count": 1,
+          "confirmed_count": 0,
+          "notes": "直接商品ページ、送料、在庫の確認不足。"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "internal",
+          "queries": [
+            "Amazon.co.jp HDD 内蔵 4TB 6TB 30000円 ST4000DM004"
+          ],
+          "status": "partial",
+          "candidate_count": 1,
+          "confirmed_count": 0,
+          "notes": "直接商品ページ、送料、在庫の確認不足。"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "external",
+          "queries": [
+            "Amazon.co.jp 外付け HDD 4TB 6TB 30000円"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "直接商品ページ、送料、在庫の確認不足。"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "internal",
+          "queries": [
+            "Amazon.co.jp 内蔵 HDD 8TB 12TB 40000円"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "直接商品ページ、送料、在庫の確認不足。"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "external",
+          "queries": [
+            "Amazon.co.jp 外付け HDD 8TB 6TB 40000円"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "直接商品ページ、送料、在庫の確認不足。"
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "パソコン工房 楽天市場店",
+      "listing_id": "m4s1p752097",
+      "product_name": "TOSHIBA DT02ABA200 2TB",
+      "manufacturer": "TOSHIBA",
+      "model": "DT02ABA200",
+      "capacity_gb": 2000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 19979,
+      "shipping_jpy": 0,
+      "total_price_jpy": 19979,
+      "jpy_per_gb": 9.9895,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/pckoubou/m4s1p752097/",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/-/408515/tg1002881/",
+      "verification": "confirmed",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "バルク品。検索一覧に注文確定後3日以内発送、個別ページで型番・容量照合。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ドスパラ楽天市場店",
+      "listing_id": null,
+      "product_name": "TOSHIBA DT02ABA200 2TB",
+      "manufacturer": "TOSHIBA",
+      "model": "DT02ABA200",
+      "capacity_gb": 2000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 19980,
+      "shipping_jpy": 0,
+      "total_price_jpy": 19980,
+      "jpy_per_gb": 9.99,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://item.rakuten.co.jp/dospara-r/c/0000000561/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000,
+        30000
+      ],
+      "notes": "個別在庫未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "アーキサイト@ダイレクト",
+      "listing_id": null,
+      "product_name": "Western Digital WD30EZAZ 3TB",
+      "manufacturer": "Western Digital",
+      "model": "WD30EZAZ",
+      "capacity_gb": 3000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 19800,
+      "shipping_jpy": 0,
+      "total_price_jpy": 19800,
+      "jpy_per_gb": 6.6,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/-/100087/tg1005234-tg1005239/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "先週取得の一覧。配送予定11/10で現時点の在庫未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "港未来ベイストア",
+      "listing_id": null,
+      "product_name": "Western Digital HDD 3TB",
+      "manufacturer": "Western Digital",
+      "model": null,
+      "capacity_gb": 3000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 17980,
+      "shipping_jpy": 0,
+      "total_price_jpy": 17980,
+      "jpy_per_gb": 5.993333333333333,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/-/100087/tg1005234-tg1005239/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "3TB選択の一覧価格、個別ページと現在の在庫未確認、バルク品。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": null,
+      "listing_id": null,
+      "product_name": "HITACHI 0S03224 2TB",
+      "manufacturer": "HITACHI",
+      "model": "0S03224",
+      "capacity_gb": 2000,
+      "type": "internal",
+      "condition": "unknown",
+      "item_price_jpy": 16980,
+      "shipping_jpy": 0,
+      "total_price_jpy": 16980,
+      "jpy_per_gb": 8.49,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF%2BHDD%2B3%EF%BC%8E5%E3%82%A4%E3%83%B3%E3%83%81/100087/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "一覧に配送予定あり、商品状態・店舗・直接URL未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "Novaflux",
+      "listing_id": null,
+      "product_name": "Seagate HDD 2TB",
+      "manufacturer": "Seagate",
+      "model": null,
+      "capacity_gb": 2000,
+      "type": "internal",
+      "condition": "refurbished",
+      "item_price_jpy": 15999,
+      "shipping_jpy": 0,
+      "total_price_jpy": 15999,
+      "jpy_per_gb": 7.9995,
+      "stock": "in_stock",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/hdd%2B%E5%86%85%E8%94%B5/-/tg1005233/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "再生品、2TB選択の配送予定表示、直接URLなし。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "Novaflux",
+      "listing_id": null,
+      "product_name": "Western Digital HDD 2TB",
+      "manufacturer": "Western Digital",
+      "model": null,
+      "capacity_gb": 2000,
+      "type": "internal",
+      "condition": "refurbished",
+      "item_price_jpy": 19999,
+      "shipping_jpy": 0,
+      "total_price_jpy": 19999,
+      "jpy_per_gb": 9.9995,
+      "stock": "in_stock",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/hdd%2B%E5%86%85%E8%94%B5/-/tg1005233/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "WD Purple再生品、2TB選択。直接URLなし。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "Novaflux",
+      "listing_id": "tt-ehdd-35inch-2tb",
+      "product_name": "Novaflux tt-ehdd-35inch-2tb 2TB",
+      "manufacturer": null,
+      "model": "tt-ehdd-35inch-2tb",
+      "capacity_gb": 2000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 13777,
+      "shipping_jpy": 0,
+      "total_price_jpy": 13777,
+      "jpy_per_gb": 6.8885,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/novaflux/tt-ehdd-35inch-2tb/",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91hdd/560062/",
+      "verification": "confirmed",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "当日検索スニペットに2TB・翌日配送、個別ページで新品とACアダプタ付属を照合。再取得した一覧は古いキャッシュで価格が再表示されず、注文画面未確認。内部ドライブ型番不明。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ハルキス",
+      "listing_id": "external-hdd-35",
+      "product_name": "ハルキス External-HDD-35 2TB",
+      "manufacturer": null,
+      "model": "External-HDD-35",
+      "capacity_gb": 2000,
+      "type": "external",
+      "condition": "unknown",
+      "item_price_jpy": 13999,
+      "shipping_jpy": 0,
+      "total_price_jpy": 13999,
+      "jpy_per_gb": 6.9995,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/harukisu/external-hdd-35/?variantId=External-HDD-35-2",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91HDD%2B2T/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "容量・配送は一覧、個別ページに新品明記なし。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "港未来ベイストア",
+      "listing_id": "compass1752554640",
+      "product_name": "EOPOWER EOP35100BK 2TB",
+      "manufacturer": "EOPOWER",
+      "model": "EOP35100BK",
+      "capacity_gb": 2000,
+      "type": "external",
+      "condition": "unknown",
+      "item_price_jpy": 16980,
+      "shipping_jpy": 0,
+      "total_price_jpy": 16980,
+      "jpy_per_gb": 8.49,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/minato-future-store/compass1752554640/?variantId=compass_sku_1753838455565_2",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91hdd/-/tg1005233/?used=0",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "新品フィルタ検索一覧に2TB・配送予定、個別ページの状態不明。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "cotoco楽天市場店",
+      "listing_id": null,
+      "product_name": "BUFFALO HD-EDS2U3-BE 2TB",
+      "manufacturer": "BUFFALO",
+      "model": "HD-EDS2U3-BE",
+      "capacity_gb": 2000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 19680,
+      "shipping_jpy": 0,
+      "total_price_jpy": 19680,
+      "jpy_per_gb": 9.84,
+      "stock": "in_stock",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91hdd/-/tg1005233/?used=0",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "新品フィルタ一覧、配送予定、商品直接URL未取得。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "PC 家電 PC周辺機器 PREMIUM STAGE",
+      "listing_id": null,
+      "product_name": "FFF MAL32000EX3-BK 2TB",
+      "manufacturer": "FFF",
+      "model": "MAL32000EX3-BK",
+      "capacity_gb": 2000,
+      "type": "external",
+      "condition": "unknown",
+      "item_price_jpy": 15500,
+      "shipping_jpy": 0,
+      "total_price_jpy": 15500,
+      "jpy_per_gb": 7.75,
+      "stock": "in_stock",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91hdd/560062/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "一覧に配送予定。個別商品ページ・状態確認なし。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ドスパラ楽天市場店",
+      "listing_id": "ic447707",
+      "product_name": "Seagate ST4000DM004 4TB",
+      "manufacturer": "Seagate",
+      "model": "ST4000DM004",
+      "capacity_gb": 4000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 24980,
+      "shipping_jpy": 0,
+      "total_price_jpy": 24980,
+      "jpy_per_gb": 6.245,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/dospara-r/ic447707/",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/0944/100087/",
+      "verification": "confirmed",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "一覧に最短当日発送、個別ページで型番照合。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ドスパラ楽天市場店",
+      "listing_id": null,
+      "product_name": "TOSHIBA DT02ABA400 4TB",
+      "manufacturer": "TOSHIBA",
+      "model": "DT02ABA400",
+      "capacity_gb": 4000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 26280,
+      "shipping_jpy": 0,
+      "total_price_jpy": 26280,
+      "jpy_per_gb": 6.57,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://item.rakuten.co.jp/dospara-r/c/0000000569/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "店舗一覧、発送・直接URL未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ドスパラ楽天市場店",
+      "listing_id": null,
+      "product_name": "Western Digital WD40EZZX 4TB",
+      "manufacturer": "Western Digital",
+      "model": "WD40EZZX",
+      "capacity_gb": 4000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 28780,
+      "shipping_jpy": 0,
+      "total_price_jpy": 28780,
+      "jpy_per_gb": 7.195,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://item.rakuten.co.jp/dospara-r/c/0000000569/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "店舗一覧、発送・直接URL未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ドスパラ楽天市場店",
+      "listing_id": null,
+      "product_name": "Western Digital WD44PURZ 4TB",
+      "manufacturer": "Western Digital",
+      "model": "WD44PURZ",
+      "capacity_gb": 4000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 29980,
+      "shipping_jpy": 0,
+      "total_price_jpy": 29980,
+      "jpy_per_gb": 7.495,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://item.rakuten.co.jp/dospara-r/c/0000000569/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "店舗一覧、発送・直接URL未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ツクモ 楽天市場店",
+      "listing_id": null,
+      "product_name": "Seagate ST4000DM004 4TB",
+      "manufacturer": "Seagate",
+      "model": "ST4000DM004",
+      "capacity_gb": 4000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 26347,
+      "shipping_jpy": 0,
+      "total_price_jpy": 26347,
+      "jpy_per_gb": 6.58675,
+      "stock": "in_stock",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/0944/100087/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "一覧に翌日出荷、商品直接URL未取得。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "マネラボ",
+      "listing_id": "20260323-00057",
+      "product_name": "ELECOM ELD-HTV040UBK 4TB",
+      "manufacturer": "ELECOM",
+      "model": "ELD-HTV040UBK",
+      "capacity_gb": 4000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 25832,
+      "shipping_jpy": 0,
+      "total_price_jpy": 25832,
+      "jpy_per_gb": 6.458,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/manelabo/20260323-00057/?variantId=default-sku",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/ELD-HTV040UBK/",
+      "verification": "confirmed",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "一覧に配送予定、個別ページ容量照合。通常新品販売ページ。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "Love Lone Star",
+      "listing_id": "20260605054533_119",
+      "product_name": "ELECOM ELD-HTV040UBK 4TB",
+      "manufacturer": "ELECOM",
+      "model": "ELD-HTV040UBK",
+      "capacity_gb": 4000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 27633,
+      "shipping_jpy": 0,
+      "total_price_jpy": 27633,
+      "jpy_per_gb": 6.90825,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/lovelonestar/20260605054533_119/?variantId=20260605054533_119",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/ELD-HTV040UBK/",
+      "verification": "confirmed",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "一覧に2〜6営業日内発送、個別ページ容量照合。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "パレットマーケット",
+      "listing_id": "pa3c092733c6",
+      "product_name": "ELECOM ELD-HTV040UBK 4TB",
+      "manufacturer": "ELECOM",
+      "model": "ELD-HTV040UBK",
+      "capacity_gb": 4000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 25971,
+      "shipping_jpy": 0,
+      "total_price_jpy": 25971,
+      "jpy_per_gb": 6.49275,
+      "stock": "unknown",
+      "url": "https://item.rakuten.co.jp/palette-market/pa3c092733c6/?variantId=pa3c092733c6",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/ELD-HTV040UBK/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "一覧に配送予定、個別ページ取得失敗。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ケーズデンキ 楽天市場店",
+      "listing_id": null,
+      "product_name": "BUFFALO HD-EDS6U3-BE 6TB",
+      "manufacturer": "BUFFALO",
+      "model": "HD-EDS6U3-BE",
+      "capacity_gb": 6000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 28000,
+      "shipping_jpy": 0,
+      "total_price_jpy": 28000,
+      "jpy_per_gb": 4.666666666666667,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B1%E3%83%BC%E3%82%BA%E3%83%87%E3%83%B3%E3%82%AD%2B%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4%E5%BA%97/100026/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "先月の取得一覧、現在庫・価格は未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ベイシア電器楽天市場店",
+      "listing_id": null,
+      "product_name": "BUFFALO HD-LE4U3-BB 4TB",
+      "manufacturer": "BUFFALO",
+      "model": "HD-LE4U3-BB",
+      "capacity_gb": 4000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 27630,
+      "shipping_jpy": 0,
+      "total_price_jpy": 27630,
+      "jpy_per_gb": 6.9075,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91HDD/-/tg1005235/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "一覧7〜14営業日で発送見込み、直接URLなし。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ドスパラ楽天市場店",
+      "listing_id": "ic451338",
+      "product_name": "Seagate ST8000DM004 8TB",
+      "manufacturer": "Seagate",
+      "model": "ST8000DM004",
+      "capacity_gb": 8000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 39680,
+      "shipping_jpy": 0,
+      "total_price_jpy": 39680,
+      "jpy_per_gb": 4.96,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/dospara-r/ic451338/",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/8TB/100087/",
+      "verification": "confirmed",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "一覧最短当日発送、個別製品名照合。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ドスパラ楽天市場店",
+      "listing_id": null,
+      "product_name": "Seagate ST6000DM003 6TB",
+      "manufacturer": "Seagate",
+      "model": "ST6000DM003",
+      "capacity_gb": 6000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 36780,
+      "shipping_jpy": 0,
+      "total_price_jpy": 36780,
+      "jpy_per_gb": 6.13,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://item.rakuten.co.jp/dospara-r/c/0000000406/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "店舗一覧の価格。個別販売状況なし。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ツクモ 楽天市場店",
+      "listing_id": null,
+      "product_name": "Seagate ST8000DM004 8TB",
+      "manufacturer": "Seagate",
+      "model": "ST8000DM004",
+      "capacity_gb": 8000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 40642,
+      "shipping_jpy": 0,
+      "total_price_jpy": 40642,
+      "jpy_per_gb": 5.08025,
+      "stock": "in_stock",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/8tb/-/tg1005312/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "翌日までに出荷表示、予算超過、直接URLなし。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "XPRICE楽天市場店",
+      "listing_id": null,
+      "product_name": "Seagate ST8000DM004 8TB",
+      "manufacturer": "Seagate",
+      "model": "ST8000DM004",
+      "capacity_gb": 8000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 39800,
+      "shipping_jpy": 0,
+      "total_price_jpy": 39800,
+      "jpy_per_gb": 4.975,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/8TB/100087/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "一覧に配送予定、個別ページ未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "エクセラー",
+      "listing_id": "1000029689",
+      "product_name": "IODATA HDD-UTL6WB 6TB",
+      "manufacturer": "IODATA",
+      "model": "HDD-UTL6WB",
+      "capacity_gb": 6000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 32380,
+      "shipping_jpy": 0,
+      "total_price_jpy": 32380,
+      "jpy_per_gb": 5.3966666666666665,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/excellar/1000029689/?variantId=1000029689",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91HDD/211492/tg1005237/",
+      "verification": "confirmed",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "当日一覧に配送予定、個別ページに新品・6TB明記。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "XPRICE楽天市場店",
+      "listing_id": "4957180172040",
+      "product_name": "IODATA HDD-UT6KB 6TB",
+      "manufacturer": "IODATA",
+      "model": "HDD-UT6KB",
+      "capacity_gb": 6000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 34800,
+      "shipping_jpy": 0,
+      "total_price_jpy": 34800,
+      "jpy_per_gb": 5.8,
+      "stock": "in_stock",
+      "url": "https://item.rakuten.co.jp/a-price/4957180172040/",
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91HDD/211492/tg1005237/",
+      "verification": "confirmed",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "一覧に翌日配送、単一6TB型番商品ページ照合。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ロジテックダイレクト楽天市場店",
+      "listing_id": null,
+      "product_name": "Logitec LHD-EN60U3WS 6TB",
+      "manufacturer": "Logitec",
+      "model": "LHD-EN60U3WS",
+      "capacity_gb": 6000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 37980,
+      "shipping_jpy": 0,
+      "total_price_jpy": 37980,
+      "jpy_per_gb": 6.33,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91HDD/100026/tg1002878/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "一覧に配送予定、直接URL未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "楽天市場",
+      "seller": "ロジテックダイレクト楽天市場店",
+      "listing_id": null,
+      "product_name": "Logitec LHD-EN60U3WSWH 6TB",
+      "manufacturer": "Logitec",
+      "model": "LHD-EN60U3WSWH",
+      "capacity_gb": 6000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 38480,
+      "shipping_jpy": 0,
+      "total_price_jpy": 38480,
+      "jpy_per_gb": 6.413333333333333,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%96%E4%BB%98%E3%81%91HDD/211492/tg1005237/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "一覧に配送予定、直接URL未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "Amazon.co.jp",
+      "seller": "Amazon.co.jp掲載",
+      "listing_id": null,
+      "product_name": "Seagate ST2000DM005 2TB",
+      "manufacturer": "Seagate",
+      "model": "ST2000DM005",
+      "capacity_gb": 2000,
+      "type": "internal",
+      "condition": "unknown",
+      "item_price_jpy": 16999,
+      "shipping_jpy": null,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://kakaku.com/item/K0001075415/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "商品検索カード表示16999円。価格比較サイトは2か月前15999円で不一致。直接販売ページ・送料・現時点の在庫未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "Amazon.co.jp",
+      "seller": "Amazon.co.jp掲載",
+      "listing_id": null,
+      "product_name": "Western Digital WD20EARZ 2TB",
+      "manufacturer": "Western Digital",
+      "model": "WD20EARZ",
+      "capacity_gb": 2000,
+      "type": "internal",
+      "condition": "refurbished",
+      "item_price_jpy": 12999,
+      "shipping_jpy": null,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": null,
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "検索カードに整備済み品と表示、直接販売ページ未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "Amazon.co.jp",
+      "seller": "Amazon.co.jp掲載",
+      "listing_id": null,
+      "product_name": "Western Digital WD20EFRX 2TB",
+      "manufacturer": "Western Digital",
+      "model": "WD20EFRX",
+      "capacity_gb": 2000,
+      "type": "internal",
+      "condition": "unknown",
+      "item_price_jpy": 16999,
+      "shipping_jpy": null,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": null,
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "検索カードのみ。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "Amazon.co.jp",
+      "seller": "Amazon.co.jp掲載",
+      "listing_id": null,
+      "product_name": "Seagate ST4000DM004 4TB",
+      "manufacturer": "Seagate",
+      "model": "ST4000DM004",
+      "capacity_gb": 4000,
+      "type": "internal",
+      "condition": "new",
+      "item_price_jpy": 27678,
+      "shipping_jpy": null,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://2tom.jp/2/p/d/?c=1902&p=3892659",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        30000
+      ],
+      "notes": "2026-09-04の第三者比較サイト参考価格、現在価格ではない。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "Amazon.co.jp",
+      "seller": "Amazon.co.jp掲載",
+      "listing_id": null,
+      "product_name": "BUFFALO HD-LE4U3-WA 4TB",
+      "manufacturer": "BUFFALO",
+      "model": "HD-LE4U3-WA",
+      "capacity_gb": 4000,
+      "type": "external",
+      "condition": "unknown",
+      "item_price_jpy": 25760,
+      "shipping_jpy": null,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": null,
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "2万円用の横断商品検索に出た予算超過候補。直接ページ未確認。"
+    },
+    {
+      "observed_at": "2026-11-20T12:47:39+09:00",
+      "market": "Amazon.co.jp",
+      "seller": "Amazon.co.jp掲載",
+      "listing_id": null,
+      "product_name": "Western Digital WD60EZAZ 6TB",
+      "manufacturer": "Western Digital",
+      "model": "WD60EZAZ",
+      "capacity_gb": 6000,
+      "type": "internal",
+      "condition": "unknown",
+      "item_price_jpy": 36400,
+      "shipping_jpy": null,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": null,
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "2万円用の横断商品検索に出た予算超過候補。直接ページ未確認。"
+    }
+  ]
+}
