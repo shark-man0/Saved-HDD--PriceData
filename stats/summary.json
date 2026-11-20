@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "budget_jpy": 40000,
+  "updated_at": null,
+  "run_count": 0,
+  "all_time_best": {
+    "overall": null,
+    "internal": null,
+    "external": null
+  },
+  "history": [],
+  "record_events": []
+}
