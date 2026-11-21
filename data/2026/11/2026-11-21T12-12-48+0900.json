@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-11-21T12-12-48+0900",
+  "observed_at": "2026-11-21T12:12:48+09:00",
+  "market_results": [
+    {
+      "market": "楽天市場",
+      "status": "failed",
+      "queries": [
+        "site:search.rakuten.co.jp 内蔵 HDD 2TB 4TB 20000円以下 新品 送料無料 2026",
+        "site:search.rakuten.co.jp 外付け HDD 2TB 4TB 20000円以下 新品 送料無料",
+        "楽天 HDD 4TB 6TB 内蔵 30000円 送料無料 ST4000DM004 2026",
+        "楽天 外付け HDD 4TB 6TB 30000円 送料無料",
+        "楽天 内蔵 HDD 8TB 40000円 ST8000DM004 2026",
+        "楽天 外付け HDD 6TB 8TB 40000円"
+      ],
+      "notes": "検索エンジンから対象店舗の現在の商品価格・送料・在庫を照合できず。検索結果にはSSD・録画機・2025年のセール記事が混入。過去価格は現在の観測にしない。",
+      "search_by_budget": [
+        {
+          "budget_jpy": 20000,
+          "type": "internal",
+          "queries": [
+            "site:search.rakuten.co.jp 内蔵 HDD 2TB 4TB 20000円以下 新品 送料無料 2026"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 20000,
+          "type": "external",
+          "queries": [
+            "site:search.rakuten.co.jp 外付け HDD 2TB 4TB 20000円以下 新品 送料無料"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "internal",
+          "queries": [
+            "楽天 HDD 4TB 6TB 内蔵 30000円 送料無料 ST4000DM004 2026"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "external",
+          "queries": [
+            "楽天 外付け HDD 4TB 6TB 30000円 送料無料"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "internal",
+          "queries": [
+            "楽天 内蔵 HDD 8TB 40000円 ST8000DM004 2026"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "external",
+          "queries": [
+            "楽天 外付け HDD 6TB 8TB 40000円"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        }
+      ]
+    },
+    {
+      "market": "Amazon.co.jp",
+      "status": "failed",
+      "queries": [
+        "site:amazon.co.jp 内蔵 HDD 2TB 4TB 20000円以下",
+        "site:amazon.co.jp 外付け HDD 2TB 20000円以下",
+        "Amazon HDD 4TB 6TB 内蔵 30000円 新品",
+        "Amazon 外付け HDD 4TB 6TB 30000円",
+        "Amazon 内蔵 HDD 8TB 40000円 新品",
+        "Amazon 外付け HDD 6TB 8TB 40000円"
+      ],
+      "notes": "検索エンジンから対象店舗の現在の商品価格・送料・在庫を照合できず。検索結果にはSSD・録画機・2025年のセール記事が混入。過去価格は現在の観測にしない。",
+      "search_by_budget": [
+        {
+          "budget_jpy": 20000,
+          "type": "internal",
+          "queries": [
+            "site:amazon.co.jp 内蔵 HDD 2TB 4TB 20000円以下"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 20000,
+          "type": "external",
+          "queries": [
+            "site:amazon.co.jp 外付け HDD 2TB 20000円以下"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "internal",
+          "queries": [
+            "Amazon HDD 4TB 6TB 内蔵 30000円 新品"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "external",
+          "queries": [
+            "Amazon 外付け HDD 4TB 6TB 30000円"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "internal",
+          "queries": [
+            "Amazon 内蔵 HDD 8TB 40000円 新品"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "external",
+          "queries": [
+            "Amazon 外付け HDD 6TB 8TB 40000円"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+        }
+      ]
+    }
+  ],
+  "observations": []
+}
