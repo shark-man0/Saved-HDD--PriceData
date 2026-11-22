@@ -5,8 +5,8 @@
     30000,
     40000
   ],
-  "updated_at": "2026-11-21T12:12:48+09:00",
-  "run_count": 3,
+  "updated_at": "2026-11-22T12:52:18+09:00",
+  "run_count": 4,
   "all_time_best": {
     "20000": {
       "overall": {
@@ -970,6 +970,216 @@
               "candidate_count": 0,
               "confirmed_count": 0,
               "notes": "該当する最新の個別商品ページ、税込送料、在庫の同時確認ができなかった。過去のセール情報は除外。"
+            }
+          ]
+        }
+      ],
+      "best_by_budget": {
+        "20000": {
+          "overall": null,
+          "internal": null,
+          "external": null
+        },
+        "30000": {
+          "overall": null,
+          "internal": null,
+          "external": null
+        },
+        "40000": {
+          "overall": null,
+          "internal": null,
+          "external": null
+        }
+      }
+    },
+    {
+      "run_id": "2026-11-22T12-52-18+0900",
+      "observed_at": "2026-11-22T12:52:18+09:00",
+      "observation_path": "data/2026/11/2026-11-22T12-52-18+0900.json",
+      "market_results": [
+        {
+          "market": "楽天市場",
+          "status": "partial",
+          "queries": [
+            "楽天 内蔵 HDD 2TB 3TB 4TB 20000円 送料無料 新品 2026年11月22日",
+            "楽天 DT02ABA200 WD30EZAZ 20000円 在庫",
+            "楽天 外付け HDD 2TB 4TB 20000円 送料無料 2026年11月22日",
+            "楽天 Novaflux 2TB 13777円 在庫",
+            "楽天 内蔵 HDD 4TB 6TB 30000円 2026年11月22日",
+            "楽天 ST4000DM004 4TB 送料無料",
+            "楽天 外付け HDD 4TB 6TB 30000円 2026年11月22日",
+            "楽天 ELD-HTV040UBK 4TB",
+            "楽天 HDD 8TB 内蔵 40000円 2026年11月22日",
+            "楽天 ST8000DM004 XPRICE 39800円",
+            "楽天 外付け HDD 6TB 8TB 40000円 2026年11月22日",
+            "楽天 HDD-UTL6WB 6TB"
+          ],
+          "notes": "検索結果は主に古いセール記事や価格比較情報。11/22現在の販売店直接価格、送料、在庫、新品状態の同時確認不可。",
+          "search_by_budget": [
+            {
+              "budget_jpy": 20000,
+              "type": "internal",
+              "queries": [
+                "楽天 内蔵 HDD 2TB 3TB 4TB 20000円 送料無料 新品 2026年11月22日",
+                "楽天 DT02ABA200 WD30EZAZ 20000円 在庫"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 20000,
+              "type": "external",
+              "queries": [
+                "楽天 外付け HDD 2TB 4TB 20000円 送料無料 2026年11月22日",
+                "楽天 Novaflux 2TB 13777円 在庫"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 30000,
+              "type": "internal",
+              "queries": [
+                "楽天 内蔵 HDD 4TB 6TB 30000円 2026年11月22日",
+                "楽天 ST4000DM004 4TB 送料無料"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 30000,
+              "type": "external",
+              "queries": [
+                "楽天 外付け HDD 4TB 6TB 30000円 2026年11月22日",
+                "楽天 ELD-HTV040UBK 4TB"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 40000,
+              "type": "internal",
+              "queries": [
+                "楽天 HDD 8TB 内蔵 40000円 2026年11月22日",
+                "楽天 ST8000DM004 XPRICE 39800円"
+              ],
+              "status": "failed",
+              "candidate_count": 1,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 40000,
+              "type": "external",
+              "queries": [
+                "楽天 外付け HDD 6TB 8TB 40000円 2026年11月22日",
+                "楽天 HDD-UTL6WB 6TB"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            }
+          ]
+        },
+        {
+          "market": "Amazon.co.jp",
+          "status": "partial",
+          "queries": [
+            "Amazon 内蔵 HDD 2TB 4TB 20000円 新品 2026年11月22日",
+            "site:amazon.co.jp ST2000DM005 2TB HDD",
+            "Amazon 外付け HDD 2TB 4TB 20000円 2026年11月22日",
+            "site:amazon.co.jp BUFFALO 外付け HDD 2TB",
+            "Amazon Seagate ST4000DM004 4TB 30000円 2026年11月22日",
+            "Amazon 内蔵 HDD 6TB 30000円",
+            "Amazon BUFFALO HD-EDS4U3-BE 4TB 30000円",
+            "Amazon 外付け HDD 6TB 30000円",
+            "Amazon Seagate ST8000DM004 8TB 40000円 2026年11月22日",
+            "Amazon 内蔵 HDD 8TB 40000円",
+            "Amazon 外付け HDD 8TB 40000円 2026年11月22日",
+            "Amazon 外付け HDD 6TB 40000円"
+          ],
+          "notes": "検索結果は古いセール記事、SSD、録画機等が多く、直接商品ページの当日支払額・在庫を確認できず。",
+          "search_by_budget": [
+            {
+              "budget_jpy": 20000,
+              "type": "internal",
+              "queries": [
+                "Amazon 内蔵 HDD 2TB 4TB 20000円 新品 2026年11月22日",
+                "site:amazon.co.jp ST2000DM005 2TB HDD"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 20000,
+              "type": "external",
+              "queries": [
+                "Amazon 外付け HDD 2TB 4TB 20000円 2026年11月22日",
+                "site:amazon.co.jp BUFFALO 外付け HDD 2TB"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 30000,
+              "type": "internal",
+              "queries": [
+                "Amazon Seagate ST4000DM004 4TB 30000円 2026年11月22日",
+                "Amazon 内蔵 HDD 6TB 30000円"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 30000,
+              "type": "external",
+              "queries": [
+                "Amazon BUFFALO HD-EDS4U3-BE 4TB 30000円",
+                "Amazon 外付け HDD 6TB 30000円"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 40000,
+              "type": "internal",
+              "queries": [
+                "Amazon Seagate ST8000DM004 8TB 40000円 2026年11月22日",
+                "Amazon 内蔵 HDD 8TB 40000円"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
+            },
+            {
+              "budget_jpy": 40000,
+              "type": "external",
+              "queries": [
+                "Amazon 外付け HDD 8TB 40000円 2026年11月22日",
+                "Amazon 外付け HDD 6TB 40000円"
+              ],
+              "status": "failed",
+              "candidate_count": 0,
+              "confirmed_count": 0,
+              "notes": "有効な新品・在庫・税込送料込み価格の確認0件。検索結果に古い価格や対象外商品が混在。"
             }
           ]
         }
