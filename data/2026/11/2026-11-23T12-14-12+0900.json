@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-11-23T12-14-12+0900",
+  "observed_at": "2026-11-23T12:14:12+09:00",
+  "market_results": [
+    {
+      "market": "楽天市場",
+      "status": "partial",
+      "queries": [
+        "内蔵 HDD 2TB 3TB 新品 20000円以下 楽天",
+        "DT02ABA200 WD30EZAZ 楽天 送料",
+        "外付け HDD 2TB 3TB 20000円以下 楽天",
+        "HD-LE2U3-BB 楽天 新品",
+        "楽天 HDD 内蔵 4TB 6TB 30000円以下",
+        "ST4000DM004 楽天",
+        "楽天 外付け HDD 4TB 6TB 30000円以下",
+        "HD-LE4U3 ELD-HTV040UBK 楽天",
+        "楽天 内蔵 HDD 8TB 40000円以下",
+        "ST8000DM004 WD80EAZZ 楽天",
+        "楽天 外付け HDD 6TB 8TB 40000円以下",
+        "HD-AD6U3 HDD-UTL6WB 楽天"
+      ],
+      "notes": "価格比較・検索一覧は一部取得。個別商品の購入可能性と送料を同時に検証できず。",
+      "search_by_budget": [
+        {
+          "budget_jpy": 20000,
+          "type": "internal",
+          "queries": [
+            "内蔵 HDD 2TB 3TB 新品 20000円以下 楽天",
+            "DT02ABA200 WD30EZAZ 楽天 送料"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 20000,
+          "type": "external",
+          "queries": [
+            "外付け HDD 2TB 3TB 20000円以下 楽天",
+            "HD-LE2U3-BB 楽天 新品"
+          ],
+          "status": "partial",
+          "candidate_count": 1,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "internal",
+          "queries": [
+            "楽天 HDD 内蔵 4TB 6TB 30000円以下",
+            "ST4000DM004 楽天"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "external",
+          "queries": [
+            "楽天 外付け HDD 4TB 6TB 30000円以下",
+            "HD-LE4U3 ELD-HTV040UBK 楽天"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "internal",
+          "queries": [
+            "楽天 内蔵 HDD 8TB 40000円以下",
+            "ST8000DM004 WD80EAZZ 楽天"
+          ],
+          "status": "partial",
+          "candidate_count": 1,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "external",
+          "queries": [
+            "楽天 外付け HDD 6TB 8TB 40000円以下",
+            "HD-AD6U3 HDD-UTL6WB 楽天"
+          ],
+          "status": "partial",
+          "candidate_count": 3,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        }
+      ]
+    },
+    {
+      "market": "Amazon.co.jp",
+      "status": "partial",
+      "queries": [
+        "Amazon HDD 内蔵 2TB 3TB 20000円 以下",
+        "ST2000DM005 Amazon 価格",
+        "Amazon HDD 外付け 2TB 20000円 以下",
+        "HD-LE2U3-BB Amazon",
+        "Amazon 内蔵 HDD 4TB 30000円以下",
+        "ST4000DM004 Amazon",
+        "Amazon 外付け HDD 4TB 30000円以下",
+        "HD-LE4U3 Amazon",
+        "Amazon 内蔵 HDD 8TB 40000円以下",
+        "ST8000DM004 Amazon",
+        "Amazon 外付け HDD 6TB 8TB 40000円以下",
+        "HD-AD6U3 Amazon"
+      ],
+      "notes": "Amazon商品検索はHDD以外のSSDや録画機に偏り、価格・送料・在庫を満たす観測を得られず。",
+      "search_by_budget": [
+        {
+          "budget_jpy": 20000,
+          "type": "internal",
+          "queries": [
+            "Amazon HDD 内蔵 2TB 3TB 20000円 以下",
+            "ST2000DM005 Amazon 価格"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 20000,
+          "type": "external",
+          "queries": [
+            "Amazon HDD 外付け 2TB 20000円 以下",
+            "HD-LE2U3-BB Amazon"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "internal",
+          "queries": [
+            "Amazon 内蔵 HDD 4TB 30000円以下",
+            "ST4000DM004 Amazon"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 30000,
+          "type": "external",
+          "queries": [
+            "Amazon 外付け HDD 4TB 30000円以下",
+            "HD-LE4U3 Amazon"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "internal",
+          "queries": [
+            "Amazon 内蔵 HDD 8TB 40000円以下",
+            "ST8000DM004 Amazon"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        },
+        {
+          "budget_jpy": 40000,
+          "type": "external",
+          "queries": [
+            "Amazon 外付け HDD 6TB 8TB 40000円以下",
+            "HD-AD6U3 Amazon"
+          ],
+          "status": "failed",
+          "candidate_count": 0,
+          "confirmed_count": 0,
+          "notes": "現在の個別販売ページ・新品・在庫・送料を同時に確認できないため正式集計なし"
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "observed_at": "2026-11-23T12:14:12+09:00",
+      "market": "楽天市場",
+      "seller": "ウインクデジタル 楽天市場店",
+      "listing_id": null,
+      "product_name": "BUFFALO HD-LE2U3-BB 2TB",
+      "manufacturer": "BUFFALO",
+      "model": "HD-LE2U3-BB",
+      "capacity_gb": 2000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 19480,
+      "shipping_jpy": 0,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://product.rakuten.co.jp/product/-/e6047c1748ede6c3327e8dbb4e23a844/item/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        20000
+      ],
+      "notes": "楽天価格比較で新品最安19480円・送料無料・店舗名表示。直接商品ページと現在の在庫未確認。"
+    },
+    {
+      "observed_at": "2026-11-23T12:14:12+09:00",
+      "market": "楽天市場",
+      "seller": "OCNオンラインショップ 楽天市場店",
+      "listing_id": "qzx0016720",
+      "product_name": "Seagate ST8000DM004 8TB",
+      "manufacturer": "Seagate",
+      "model": "ST8000DM004",
+      "capacity_gb": 8000,
+      "type": "internal",
+      "condition": "unknown",
+      "item_price_jpy": 8479,
+      "shipping_jpy": 0,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": "https://item.rakuten.co.jp/nttxstore/qzx0016720/",
+      "evidence_url": "https://item.rakuten.co.jp/nttxstore/qzx0016720/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "商品ページの8479円は8TB製品と対応する価格か疑わしい。購入可能な8TBの価格として採用禁止。"
+    },
+    {
+      "observed_at": "2026-11-23T12:14:12+09:00",
+      "market": "楽天市場",
+      "seller": null,
+      "listing_id": null,
+      "product_name": "BUFFALO HD-AD6U3 6TB",
+      "manufacturer": "BUFFALO",
+      "model": "HD-AD6U3",
+      "capacity_gb": 6000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 37324,
+      "shipping_jpy": 0,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/hdd%2B6tb/211492/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "11/23の検索一覧に送料無料、2-4営業日発送と表示。販売店と直接URL未確認。"
+    },
+    {
+      "observed_at": "2026-11-23T12:14:12+09:00",
+      "market": "楽天市場",
+      "seller": null,
+      "listing_id": null,
+      "product_name": "6TB",
+      "manufacturer": null,
+      "model": null,
+      "capacity_gb": 6000,
+      "type": "external",
+      "condition": "new",
+      "item_price_jpy": 39999,
+      "shipping_jpy": 0,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/hdd%2B6tb/211492/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "6TB新品と送料無料の検索一覧、製造元・型番・直接URL未確認。"
+    },
+    {
+      "observed_at": "2026-11-23T12:14:12+09:00",
+      "market": "楽天市場",
+      "seller": null,
+      "listing_id": null,
+      "product_name": "ELECOM ELD-HTV060UBK 6TB",
+      "manufacturer": "ELECOM",
+      "model": "ELD-HTV060UBK",
+      "capacity_gb": 6000,
+      "type": "external",
+      "condition": "unknown",
+      "item_price_jpy": 35000,
+      "shipping_jpy": 0,
+      "total_price_jpy": null,
+      "jpy_per_gb": null,
+      "stock": "unknown",
+      "url": null,
+      "evidence_url": "https://search.rakuten.co.jp/search/mall/6tb%2Bhdd/560062/",
+      "verification": "partial",
+      "search_budgets_jpy": [
+        40000
+      ],
+      "notes": "ハイブリッドドライブと記載。純粋なHDDか不確定、店舗と直接URL不明。"
+    }
+  ]
+}
